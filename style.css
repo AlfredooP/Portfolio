@@ -58,25 +58,47 @@ html {
 .flex-row {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
     width: 100%;
     justify-content: flex-start;
     /* border: 1px solid #ffffff; */
 }
 
-.contenedor-inicio {
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    /* border: 1px solid #ffffff; */
+}
+
+.section-container {
     display: grid;
     width: 100%;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 70% 30%;
 }
 
 hr {
     margin: 5px;
-    margin-left: 65px;
-    width: 50%;
+    margin-left: 15%;
+    width: 40%;
     border: solid 2px;
     color: #fff;
     /* align-self: flex-start; */
     /* vertical-align: middle; */
+}
+
+#profile {
+    width: 55%;
+    align-self: flex-start;
+    border-bottom: solid 5px;
+    border-left: solid 2px;
+    border-color: #fff;
+}
+
+.icon {
+    height: 32px;
+    width: 32px;
+    margin: .5rem;
 }
