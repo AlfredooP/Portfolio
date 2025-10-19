@@ -92,9 +92,12 @@ hr {
 #profile {
     width: 55%;
     align-self: flex-start;
-    border-bottom: solid 5px;
-    border-left: solid 2px;
+    border-bottom: solid 60px;
+    border-left: solid 10px;
+    border-right: solid 10px;
+    border-top: solid 15px;
     border-color: #fff;
+    box-shadow: #000000 0px 6px 16px;
 }
 
 .icon {
