@@ -10,7 +10,8 @@ html {
     font-style: normal;
     color: #ac02ea;
     vertical-align: middle;
-    font-size: 4rem;
+    /* font-size: 4rem; */
+    font-size: 5cqw;
     text-transform: uppercase;
     margin: 0px;
 }
@@ -22,7 +23,8 @@ html {
     font-weight: 500;
     font-style: normal;
     color: #fff;
-    font-size: 2.5rem;
+    /* font-size: 2.5rem; */
+    font-size: 2.8cqw;
     margin: 0px;
     margin-left: 20px;
 }
@@ -51,7 +53,8 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 35rem;
+    /* border: 1px solid #ffffff; */
+    /* height: 35rem; */
     /* border: 1px solid #ffffff; */
 }
 
@@ -70,20 +73,21 @@ html {
     align-items: center;
     width: 100%;
     justify-content: center;
+    margin-top: 1rem;
     /* border: 1px solid #ffffff; */
 }
 
-.section-container {
+/* .section-container {
     display: grid;
     width: 100%;
     grid-template-columns: 70% 30%;
-}
+} */
 
 hr {
     margin: 5px;
     margin-left: 15%;
     width: 40%;
-    border: solid 2px;
+    border: solid .2cqw;
     color: #fff;
     /* align-self: flex-start; */
     /* vertical-align: middle; */
@@ -92,16 +96,58 @@ hr {
 #profile {
     width: 55%;
     align-self: flex-start;
-    border-bottom: solid 60px;
-    border-left: solid 10px;
-    border-right: solid 10px;
-    border-top: solid 15px;
+    border-bottom: solid 6cqw;
+    border-left: solid 1cqw;
+    border-right: solid 1cqw;
+    border-top: solid 1.5cqw;
+    /* border-width: 1.5cqw 1cqw 6cqw 1cqw; */
     border-color: #fff;
     box-shadow: #000000 0px 6px 16px;
 }
 
 .icon {
-    height: 32px;
-    width: 32px;
-    margin: .5rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#title-container {
+    width: 70%;
+    container-type: inline-size;
+}
+
+#subtitle-container {
+    container-type: inline-size;
+}
+
+#photo-container {
+    width: 30%;
+}
+
+/* Responsive: menor a 1400px */
+@media (max-width: 800px) {
+    .container {
+        flex-direction: column;
+    }
+
+    #photo-container {
+        order: -1;
+        align-self: center;
+        margin-bottom: 1.5rem;
+    }
+
+    #title-container {
+        width: 100%;
+    }
+
+    #profile {
+        width: 100%;
+    }
 }
