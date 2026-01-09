@@ -1,6 +1,5 @@
 html {
-    background-color: #0d001e;
-    text-align: center;
+    background: linear-gradient(135deg, #000000, #200049);
 }
 
 .exo-2-font {
@@ -16,7 +15,6 @@ html {
     margin: 0px;
 }
 
-
 .edu-tas-beginner-font {
     font-family: "Edu TAS Beginner", cursive;
     font-optical-sizing: auto;
@@ -26,14 +24,15 @@ html {
     /* font-size: 2.5rem; */
     font-size: 2.8cqw;
     margin: 0px;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 .navbar {
     display: block;
     width: 30%;
     border-radius: 10px;
-    background: linear-gradient(135deg, #0d001e, #ac02ea);
+    /* background: linear-gradient(135deg, #0d001e, #ac02ea); */
+    background-color: #200049;
     justify-self: center;
     padding: 1rem;
     margin-top: 30px;
@@ -87,16 +86,21 @@ hr {
     margin: 5px;
     margin-left: 15%;
     width: 40%;
-    border: solid .2cqw;
-    color: #fff;
+    /* border: solid .2cqw;
+    color: #fff; */
     /* align-self: flex-start; */
     /* vertical-align: middle; */
+
+    border: none;
+    height: .35cqw;
+    background: linear-gradient(to right, transparent, #ffffff);
+    border-radius: 2px;
 }
 
 #profile {
     width: 55%;
     align-self: flex-start;
-    border-bottom: solid 6cqw;
+    border-bottom: solid 5cqw;
     border-left: solid 1cqw;
     border-right: solid 1cqw;
     border-top: solid 1.5cqw;
