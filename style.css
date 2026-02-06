@@ -192,7 +192,7 @@ hr {
 }
 
 .projects-grid {
-    display: grid;
+    /* display: grid; */
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     width: 80%;
 }
@@ -222,10 +222,10 @@ hr {
 .image-container {
     overflow: hidden;
     /* width: 30%; */
-    aspect-ratio: 1 / 1;
+    /* aspect-ratio: 1 / 1; */
     border-radius: 10px;
     flex-shrink: 0;
-    width: clamp(90px, 30%, 40%);
+    width: clamp(90px, 50%, 50%);
 }
 
 .image-container img {
