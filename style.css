@@ -233,11 +233,10 @@ hr {
     background-color: #ac02ea;
     text-decoration: none;
     border-radius: 5px;
-    padding: 1cqw 2cqw ;
-    font-family: 'system-ui', sans-serif;
-    font-size: 1cqw;
-
-    /* justify-self: center; */
+    padding: .8cqw 1.5cqw ;
+    font-family: "Exo 2", 'system-ui', sans-serif;
+    font-weight: bold;
+    font-size: 1.3cqw;
 }
 
 .project-info {
